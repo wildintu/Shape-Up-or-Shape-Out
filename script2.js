@@ -114,7 +114,7 @@ class Triangle extends Shape {
         sw2.value = widthVal;
         let radiusVal = 'NA';
         sr2.value = radiusVal;
-        let areaVal = `${Math.floor(0.5 * this.height ** 2)}px`;
+        let areaVal = `${Math.floor(0.5 * Math.pow(this.height,2))}px`;
         sa2.value = areaVal;
         let perimeterVal = `${Math.floor(2 * this.height + (Math.sqrt(2)) * this.height)}px`;
         sp2.value = perimeterVal;
