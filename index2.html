@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shape up or Shape Out</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div id="title">Add Shape</div>
+    <div id="inputgroup">
+        <div class="row1" id="r">
+            <input class="input" type="number" name="width" id="rectwidth" placeholder="width">
+            <input class="input" type="number" name="height" id="rectheight" placeholder="height">
+            <button class="button" id="rectBtn" type="submit">Add Rectangle</button>
+        </div>
+        <div class="row2" id="s">
+            <input class="input" type="number" name="length" id="sqside" placeholder="length">
+            <button class="button" id="sqBtn" type="submit" >Add Square</button>
+        </div>
+        <div class="row3" id="c">
+            <input class="input" type="number" name="radius" id="cirradius" placeholder="radius">
+            <button class="button" id="cirBtn" type="submit">Add Circle</button>
+        </div>
+        <div class="row4" id="t">
+            <input class="input" type="number" name="height" id="triheight" placeholder="height">
+            <button class="button" id="triBtn" type="submit" >Add Triangle</button>
+        </div>
+    </div>
+    <div id="container">
+        <div id="shapecontainer"></div>
+        <div id="sp">
+            <ul id="sidepanel">
+                <li id="shapename">Name:</li> <input id="shapename2" type="text">
+                <li id="shapewidth">Width:</li> <input id="shapewidth2" type="number">
+                <li id="shaperadius">Radius:</li> <input id="shaperadius2" type="number">
+                <li id="shapearea">Area:</li> <input id="shapearea2" type="number">
+                <li id="shapeperimeter">Permimeter:</li> <input id="shapeperimeter2" type="number">
+            </ul>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
