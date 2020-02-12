@@ -10,7 +10,7 @@ let sn2 = document.getElementById('shapename2'),
 class Shape {
     constructor(x,y) {
         this.div = document.createElement('div');
-        //this.div.classList.add('shape');
+        this.div.style.opacity = `50%`;
         this.div.style.position = 'absolute';
         this.div.style.left = `${x}px`;
         this.div.style.top = `${y}px`;
@@ -102,7 +102,6 @@ class Triangle extends Shape {
         this.div.style.height = `0px`;
         this.div.style.borderRight = `${height}px solid transparent`;
         this.div.style.borderBottom = `${height}px solid #ffff00`;
-        this.div.style.opacity = `50%`;
         this.div.classList.add('triangle');
     }
     describe() {

@@ -40,15 +40,15 @@
 }
 
 .rectangle {
-    background-color: green; opacity: 50%;
+    background-color: green;
 }
 
 .square {
-    background-color: red; opacity: 50%;
+    background-color: red;
 }
 
 .circle {
-    background-color: purple; opacity: 50%;
+    background-color: purple;
     border-radius: 50%;
 }
 
