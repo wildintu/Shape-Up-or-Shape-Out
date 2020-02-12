@@ -2,6 +2,7 @@
     width: 600px;
     height: 600px;
     background-color: lightskyblue;
+    position: relative;
 }
 
 #container {
@@ -37,3 +38,17 @@
 .row4 {
     margin-bottom: 10px;
 }
+
+.rectangle {
+    background-color: green; opacity: 50%;
+}
+
+.square {
+    background-color: red; opacity: 50%;
+}
+
+.circle {
+    background-color: purple; opacity: 50%;
+    border-radius: 50%;
+}
+
